@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Iletisim";
+    Layout = "~/Views/Shared/_LayoutAnaSayfa.cshtml";
+}
+
+    <div class="col-md-8">
+       
+        <div class="container">
+            <br />
+            <form id="contact" action="" method="">
+                <h2>İletişim Sayfası</h2>
+                <br />
+                <div class="form-control">
+                    <input placeholder="Adınız Soyadınız" type="text" required autofocus>
+                </div>
+                <br />
+                <div class="form-control">
+                    <input placeholder="E-Posta Adresiniz" type="email" required>
+                </div>
+                <br />
+                <div class="form-control">
+                    <input placeholder="Konu" type="text" required>
+                </div>
+                <br />
+                <div class="form-control" style="height:70px">
+                    <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.." required></textarea>
+                </div>
+                <br />
+                <button name="submit" type="submit" id="submit">GÖNDER</button>
+            </form>
+        </div>
+
+    </div>
+
+

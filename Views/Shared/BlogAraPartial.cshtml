@@ -1,0 +1,20 @@
+﻿
+
+@using (Html.BeginForm("BlogAra", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="card my-4">
+        <h5 class="card-header">Gözat</h5>
+        <div class="card-body">
+            <div class="input-group">
+                <input id="Ara" name="Ara" type="text" class="form-control" placeholder="Aradığınız...">
+                <span class="input-group-append">
+                    <button value="Ara" class="btn btn-secondary" type="submit">Ara!</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+}
+
+
+
